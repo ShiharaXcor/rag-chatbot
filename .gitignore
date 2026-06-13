@@ -1,0 +1,23 @@
+# Virtual environment
+.venv/
+venv/
+
+# API keys — never push this
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Uploaded files — too large for GitHub
+backend/uploads/
+backend/vectorstore/
+
+# Node modules (for frontend later)
+node_modules/
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
